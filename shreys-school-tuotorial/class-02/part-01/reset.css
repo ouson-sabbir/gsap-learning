@@ -1,0 +1,60 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  html, body{
+    height: 100%;
+    width: 100%;
+  }
+  
+  /* Root Variables */
+  :root {
+    --primary-color: #215ada;
+    --secondary-color: #f8f9fa;
+    --text-color: #333;
+    --font-family: 'Inter', sans-serif;
+    --border-radius: 8px;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: var(--font-family);
+    line-height: 1.6;
+    color: var(--text-color);
+  }
+  
+  /* Container */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Flexbox & Grid Utility */
+  .flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .grid {
+    display: grid;
+    gap: 20px;
+  }
+  
+  /* Button Styles */
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: var(--primary-color);
+    color: #fff;
+    border-radius: var(--border-radius);
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    opacity: 0.8;
+  }
