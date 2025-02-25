@@ -1,0 +1,31 @@
+#page1{
+    height: 100%;
+    width: 100%;
+    background: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#page2{
+    height: 100%;
+    width: 100%;
+    padding: 0 5vw;
+    background: rgba(211, 211, 211, 0.777);
+}
+#page2 h1{
+    font-size: 30vw;
+    text-transform: uppercase;
+    letter-spacing: 3vw;
+
+}
+#page3{
+    height: 100%;
+    width: 100%;
+    background: rgba(211, 211, 211, 0.525);
+}
+#box{
+    height: 300px;
+    width: 300px;
+    background: red;
+    border-radius: 4px;
+}

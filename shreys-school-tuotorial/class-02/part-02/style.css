@@ -1,0 +1,39 @@
+#page1{
+    height: 100%;
+    width: 100%;
+    background: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#page2{
+    height: 100%;
+    width: 100%;
+    background: rgba(211, 211, 211, 0.777);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+#page2 h1{
+    background-color: yellow;
+    padding: 12px;
+    border-radius: 8px;
+}
+#page2 h2{
+    background-color: rgba(255, 255, 0, 0.381);
+    padding: 12px;
+    border-radius: 8px;
+}
+#page3{
+    height: 100%;
+    width: 100%;
+    background: rgba(211, 211, 211, 0.525);
+}
+#box{
+    height: 300px;
+    width: 300px;
+    background: red;
+    border-radius: 4px;
+}

@@ -1,0 +1,12 @@
+#main{
+    height: 100%;
+    width: 100%;
+    background: #111;
+    position: relative;
+}
+#cursor{
+    background: #fff;
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+}
