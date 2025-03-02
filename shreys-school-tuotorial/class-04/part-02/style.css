@@ -1,0 +1,41 @@
+#main{
+    height: 100%;
+    width: 100%;
+    background: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cursor{
+    background: #fff;
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    font-size: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    z-index: 9;
+    position: fixed;
+}
+#image{
+    height: 50vh;
+    width: 70vw;
+    border-radius: 10px;
+    position: relative;
+}
+#image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+#overlay{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 10;
+}
